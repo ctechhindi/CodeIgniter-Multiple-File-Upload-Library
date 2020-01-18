@@ -388,9 +388,10 @@ class Upload_Documents
         $_image_name = "";
         $_image_ext = "";
         $_image_type = "";
-
+        
         if (empty($image_url))
-            return base_url($this->__temp_image);
+            return "";
+            // return base_url($this->__temp_image);
 
         $_file_data = pathinfo($image_url);
 
