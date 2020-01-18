@@ -59,6 +59,8 @@ print_r($output); // $output['status'] = TRUE/FALSE
 
 ### Upload Multiple File One Time
 
+Firstly check file validation then uploading start.
+
 ```php
 // Load Library: Document Upload
 $this->load->library('upload_documents');
