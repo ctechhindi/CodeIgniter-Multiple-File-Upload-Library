@@ -100,6 +100,13 @@ var_dump($output);
 ]
 ```
 
+### Delete Image & Doc in Server
+
+```php
+$img_x128Path = $this->upload_documents->show_image_path(FCPATH. '/assets/building/thumb/', $fileName, "x128");
+unlink($img_x128Path);
+```
+
 ## Reporting Issues ☢️
 
 If you have a problem with this plugin or found any bug, please open an issue on [GitHub](https://github.com/ctechhindi/CodeIgniter-Multiple-File-Upload-Library/issues).
